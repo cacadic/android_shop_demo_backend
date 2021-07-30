@@ -21,4 +21,9 @@ public class LoaiSanPhamController {
         Iterable<LoaiSanPham> loaiSanPham = loaiSanPhamService.getLoaiSanPhamByMaLoaiCha(maloaicha);
         return new ResponseEntity<>(loaiSanPham, HttpStatus.OK);
     }
+
+    @GetMapping(value = "/hello")
+    public String hello(){
+        return "Hello World!!!";
+    }
 }
