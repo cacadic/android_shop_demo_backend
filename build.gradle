@@ -3,14 +3,18 @@ buildscript {
 		mavenCentral()
 	}
 	dependencies {
-		classpath 'com.google.appengine:gradle-appengine-plugin:1.9.3'
+		classpath 'com.google.cloud.tools:appengine-gradle-plugin:2.2.0'
+		classpath "org.springframework.boot:spring-boot-gradle-plugin:2.2.5.RELEASE"
 	}
 }
+
+
 
 plugins {
 	id 'org.springframework.boot' version '2.5.2'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'war'
 }
 
 group = 'com.demoShopData'

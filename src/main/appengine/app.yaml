@@ -1,6 +1,7 @@
 service: default
 
 runtime: java
+entrypoint: java -noverify -jar DemoShopData-0.0.1-SNAPSHOT.jar
 env: flex
 
 runtime_config:
