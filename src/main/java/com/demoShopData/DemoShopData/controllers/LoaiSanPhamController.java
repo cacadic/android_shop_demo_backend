@@ -64,6 +64,7 @@ public class LoaiSanPhamController {
                     menuCon2.setMa(valueCon2.getMa());
                     menuCon2.setTen(valueCon2.getTen());
                     menuCon2.setMaLoaiCha(valueCon2.getMaLoaiCha());
+
                     menuResponseListCon2.add(menuCon2);
                 }
 
